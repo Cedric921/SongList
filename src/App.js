@@ -1,12 +1,10 @@
 import React from 'react'
-import BookList from './components/BookList'
-import Navbar from './components/Navbar'
+import SongList from './components/SongList'
 
 function App() {
   return (
     <div className='App'>
-      <Navbar />
-      <BookList />
+      <SongList />
     </div>
   )
 }
