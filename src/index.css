@@ -30,8 +30,9 @@ nav ul li {
   margin-bottom: 20px;
 }
 
-.book-list {
+.book-list ul {
   padding: 0;
+  list-style-type: none;
 }
 
 .book-list li {
