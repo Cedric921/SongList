@@ -7,7 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
+}
+nav {
+  padding: 0;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.book-list {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.book-list {
+  padding: 0;
+}
+
+.book-list li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
 }
