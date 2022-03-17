@@ -8,10 +8,10 @@ const SongList = () => {
     { title: 'this wild darkness', id: 3 },
   ])
 
-  const addSong = () => {
+  const addSong = (title) => {
     let id = Math.random()
 
-    setSongs([...songs, { title: 'vb', id: id }])
+    setSongs([...songs, { title, id }])
   }
 
   return (
@@ -21,7 +21,7 @@ const SongList = () => {
           return <li key={song.id}> {song.title} </li>
         })}
       </ul>
-      <NewSongForm />
+      <NewSongForm addSong={addSong} />
     </div>
   )
 }
