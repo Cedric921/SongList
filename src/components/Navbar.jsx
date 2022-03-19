@@ -7,7 +7,7 @@ const Navbar = (props) => {
   return (
     <div className='navbar'>
       <h3>VB reading books</h3>
-      <p>You have now {books.lenght} books. </p>
+      <p>You have now {books.length} books. </p>
     </div>
   )
 }
