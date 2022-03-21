@@ -1,18 +1,15 @@
-import React, { Component } from 'react'
+import React, { useContext } from 'react'
+import { BookContext } from '../contexts/BookContext'
 
-class Navbar extends Component {
-  render() {
-    return (
-      <nav>
-        <h1>Context App</h1>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    )
-  }
+const Navbar = (props) => {
+  const { books } = useContext(BookContext)
+
+  return (
+    <div className='navbar'>
+      <h3>VB reading books</h3>
+      <p>You have now {books.length} books. </p>
+    </div>
+  )
 }
 
 export default Navbar
