@@ -53,10 +53,32 @@ body {
 
 .book-list .author {
   font-size: 0.9em;
-  color: #ddd;
+  color: rgb(199, 155, 155);
 }
 
 .empty {
   margin: 20px;
   text-align: center;
+}
+
+.form {
+  padding: 20px;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0px;
+  box-sizing: border-box;
+  background: #361b36;
+  color: #fff;
+  border: 0;
+}
+
+input[type='submit'] {
+  margin: 10px auto;
+  background: rgb(67, 119, 71);
+  border: 0;
+  padding: 10px 20px;
+  display: block;
 }
