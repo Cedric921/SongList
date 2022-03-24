@@ -5,8 +5,15 @@ const BookForm = () => {
   const { addBook } = useContext(BookContext)
   const [title, setTitle] = useState('')
   const [author, setAuthor] = useState('')
+
+  const handlerSubmit = (e) => {
+    e.preventDefault()
+    addBook(title, author)
+    setTitle('')
+    setAuthor('')
+  }
   return (
-    <form>
+    <form onSubmit={(e) => handlerSubmit(e)}>
       <input
         type='text'
         required
