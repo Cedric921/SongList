@@ -13,7 +13,7 @@ body {
   text-align: center;
 }
 nav {
-  padding: 0;
+  padding: 10px;
 }
 
 nav ul {
@@ -39,4 +39,12 @@ nav ul li {
   padding: 10px;
   margin: 10px auto;
   border-radius: 10px;
+}
+
+button {
+  background: #eee;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #555;
 }
