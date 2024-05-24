@@ -82,3 +82,10 @@ input[type='submit'] {
   padding: 10px 20px;
   display: block;
 }
+button {
+  background: #eee;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #555;
+}
